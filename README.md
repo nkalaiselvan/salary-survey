@@ -65,3 +65,5 @@ select Job_Title, Years_of_Professional_Experience_in_Field as Experience, round
 select industry, gender, Highest_Level_of_Education_Completed as Education_level, round(avg(Total_Salary_USD),2) as Average_Salary from salary_survey group by Industry,gender,education_level;
 
 #### Dashboard:
+<img width="1600" height="565" alt="image" src="https://github.com/user-attachments/assets/945b8ee3-30d9-4930-805b-7d7d68b5c175" />
+
